@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:lookinu_real/home.dart';
-import 'package:lookinu_real/listview.dart';
 import 'package:lookinu_real/MyHomePage.dart';
-import 'package:lookinu_real/page/ls_test.dart';
 
 void main() {
   runApp(const MyApp());

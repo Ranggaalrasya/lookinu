@@ -65,21 +65,65 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - asset/images/
-    - asset/images/home.png
-    - asset/images/mail-ico.png
-    - asset/images/sb.png
-    - asset/images/banner_1.png
-    - asset/images/icon/pantai-ico.png
-    - asset/images/icon/bukit-ico.png
-    - asset/images/icon/muse-ico.png
-    - asset/images/icon/lain-ico.png
-    - asset/images/kamunanya.jpg
-    - asset/images/icon/acc.png
-    - asset/images/home-coll.png
-    - asset/images/borobudur.png
-    - asset/images/icon/location-ico.png
-    - asset/images/epos.png
+    # - asset/images/
+    # - asset/images/home.png
+    # - asset/images/mail-ico.png
+    # - asset/images/sb.png
+    # - asset/images/banner_1.png
+    # - asset/images/icon/pantai-ico.png
+    # - asset/images/icon/bukit-ico.png
+    # - asset/images/icon/muse-ico.png
+    # - asset/images/icon/lain-ico.png
+    # - asset/images/kamunanya.jpg
+    # - asset/images/icon/acc.png
+    # - asset/images/home-coll.png
+    # - asset/images/borobudur.png
+    # - asset/images/icon/location-ico.png
+    # - asset/images/epos.png
+    - asset/login.png
+    - asset/look_login.png
+    - asset/judul_login.png
+    - asset/vector_login.png
+    - asset/back_login.png
+    - asset/borderside_login.png
+    - asset/logo.png
+    - asset/splash.png
+    - asset/Register.png
+    - asset/look_register.png
+    - asset/vector1.png
+    - asset/daftarcara.png
+    - asset/toLogin.png
+    - asset/google.png
+    - asset/OR.png
+    - asset/facebook.png
+    - asset/google_login.png
+    - asset/facebook_login.png
+    - asset/side_login.png
+    - asset/caralain_login.png
+    - asset/back_detail.png
+    - asset/star.png
+    - asset/map.png
+    - asset/side.png
+    - asset/overwiew_detail.png
+    - asset/boro_1.png
+    - asset/boro_2.png
+    - asset/boro_3.png
+    - asset/boro_4.png
+    - asset/boro_5.png
+    - asset/boro_6.png
+    - asset/mapBoro.png
+    - asset/avatar1.png
+    - asset/starulasan.png
+    - asset/FOOD.png
+    - asset/back_profil.png
+    - asset/prof_icon.png
+    - asset/museum.png
+    - asset/bukit.png
+    - asset/ulasan_foto.png
+    - asset/ulasan_foto.png
+    - asset/air_terjun.png
+    - asset/pantai.png
+
 
   #   - images/a_dot_ham.jpeg
 

@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:lookinu_real/page/login.dart';
 import 'package:lookinu_real/page/mailPage.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
@@ -574,10 +575,17 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 Container(
                   margin: EdgeInsets.only(left: 14, top: 40),
-                  child: Icon(
-                    Icons.account_circle_rounded,
-                    color: Color.fromRGBO(136, 198, 246, 1),
-                    size: 34,
+                  child: GestureDetector(
+                    child: Icon(
+                      Icons.account_circle_rounded,
+                      color: Color.fromRGBO(136, 198, 246, 1),
+                      size: 34,
+                    ),
+                    onTap: () => Navigator.push(context, MaterialPageRoute(
+                      builder: (context) {
+                        return login();
+                      },
+                    )),
                   ),
                 ),
                 Container(

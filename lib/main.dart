@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:lookinu_real/home.dart';
 import 'package:lookinu_real/MyHomePage.dart';
+import 'package:lookinu_real/page/login.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
+      home: login(),
     );
   }
 }

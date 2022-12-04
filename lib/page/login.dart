@@ -22,10 +22,10 @@ class _loginState extends State<login> {
             Container(
               child: Stack(children: [
                 Container(
-                  padding: EdgeInsets.all(417.4),
+                  padding: EdgeInsets.all(410),
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                    image: AssetImage('assets/back_login.png'),
+                    image: AssetImage('asset/back_login.png'),
                     fit: BoxFit.cover,
                   )),
                 ),
@@ -35,7 +35,7 @@ class _loginState extends State<login> {
                     child: Container(
                       width: 100,
                       height: 780,
-                      child: Image.asset("assets/side.png"),
+                      child: Image.asset("asset/side.png"),
                     )),
                 Center(
                     child: Column(
@@ -45,7 +45,7 @@ class _loginState extends State<login> {
                       width: 220,
                       padding: EdgeInsets.only(top: 25.0, left: 45, right: 40),
                       child: ClipRRect(
-                        child: Image.asset('assets/look_login.png'),
+                        child: Image.asset('asset/look_login.png'),
                       ),
                     )
                   ],
@@ -57,7 +57,7 @@ class _loginState extends State<login> {
                       width: 260,
                       padding: EdgeInsets.only(top: 55.0, left: 10, right: 40),
                       child: ClipRRect(
-                        child: Image.asset("assets/vector_login.png"),
+                        child: Image.asset("asset/vector_login.png"),
                       ),
                     )),
                 Positioned(
@@ -68,7 +68,7 @@ class _loginState extends State<login> {
                       padding:
                           EdgeInsets.only(top: 55.0, left: 60.0, right: 60.0),
                       child: ClipRRect(
-                        child: Image.asset("assets/google_login.png"),
+                        child: Image.asset("asset/google_login.png"),
                       )),
                 ),
                 Positioned(
@@ -79,7 +79,7 @@ class _loginState extends State<login> {
                       padding:
                           EdgeInsets.only(top: 55.0, left: 60.0, right: 60.0),
                       child: ClipRRect(
-                        child: Image.asset("assets/facebook_login.png"),
+                        child: Image.asset("asset/facebook_login.png"),
                       )),
                 ),
                 Positioned(
@@ -90,7 +90,7 @@ class _loginState extends State<login> {
                       padding:
                           EdgeInsets.only(top: 55.0, left: 10.0, right: 40.0),
                       child: ClipRRect(
-                        child: Image.asset("assets/side_login.png"),
+                        child: Image.asset("asset/side_login.png"),
                       )),
                 ),
                 Positioned(
@@ -195,7 +195,7 @@ class _loginState extends State<login> {
                               final result = await Navigator.push(
                                   context,
                                   PageTransition(
-                                      child: MyHomePage(),
+                                      child: mailPage(),
                                       duration: Duration(milliseconds: 500),
                                       type: PageTransitionType.leftToRight));
                             },
@@ -229,7 +229,7 @@ class _loginState extends State<login> {
                                 padding: EdgeInsets.all(10),
                                 child: ClipRRect(
                                   child:
-                                      Image.asset("assets/caralain_login.png"),
+                                      Image.asset("asset/caralain_login.png"),
                                 )),
                           ),
                         ],
